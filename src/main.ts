@@ -11,7 +11,7 @@ async function bootstrap(): Promise<void> {
     allowedHeaders: "*",
   });
 
-  await app.listen(3690 || process.env.PORT);
+  await app.listen(3000 || process.env.PORT);
 }
 
 bootstrap().catch((err) => {
