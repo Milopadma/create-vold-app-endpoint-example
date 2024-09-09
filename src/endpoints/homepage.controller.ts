@@ -26,7 +26,6 @@ export class HomepageController {
           sectionId: "RightDescription",
           title: "RightDescription",
         },
-        // ... other components ...
         {
           data: {
             textBackgroundButtonText: "Learn More",
